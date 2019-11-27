@@ -27,13 +27,12 @@ double ControleDePagamentos::calculaTotalDePagamentos()
 
 bool ControleDePagamentos::existePagamentoParaFuncionario(std::string nome)
 {
-    bool b = false;
     for(int i = 0; i < 2; i++)
     {
         if(pagamentos[i].nomeDoFuncionario == nome)
         {
-            b = true;
+            return true;
         }
     }
-    return b;
+    return false;
 }
