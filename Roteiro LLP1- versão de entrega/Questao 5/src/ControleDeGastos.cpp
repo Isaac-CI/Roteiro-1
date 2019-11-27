@@ -20,11 +20,9 @@ double ControleDeGastos::calculaTotalDeDespesas()
 
 bool   ControleDeGastos::existeDespesaDoTipo()
 {
-    bool retorno = false;
     for(int i = 0; i < 10; i++)
     {
         if(despesas[i].tipo == "passado")
-            retorno = true;
+            return true;
     }
-    return retorno;
 }
