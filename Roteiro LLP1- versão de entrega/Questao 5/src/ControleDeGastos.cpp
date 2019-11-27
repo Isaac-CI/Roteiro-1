@@ -25,4 +25,5 @@ bool   ControleDeGastos::existeDespesaDoTipo()
         if(despesas[i].tipo == "passado")
             return true;
     }
+    return false;
 }
