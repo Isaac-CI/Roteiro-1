@@ -1,0 +1,12 @@
+#include <iostream>
+#include "include/Invoice.h"
+
+using namespace std;
+
+int main(){
+    Invoice *conta_1;
+    Invoice conta_2;
+    
+    conta_1 = new Invoice(10011011, "compra realizada no dia 18/02/2019", 3, 200.53);
+    conta_2.setDescricao("compra realizada")
+}

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1574702857 source:c:\users\aluno\desktop\roteiro llp1\questão 3\main.cpp
+	<string>
+	"Empregado.h"
+	<iostream>
+
+1574632500 c:\users\aluno\desktop\roteiro llp1\questão 3\include\empregado.h
+
+1574702857 source:c:\users\aluno\desktop\roteiro llp1\questão 3\src\empregado.cpp
+	<string>
+	"Empregado.h"
+

@@ -1,0 +1,32 @@
+#include "Invoice.h"
+
+Invoice(){
+}
+Invoice::Invoice(int numero, string descricao, int quantidade, double preco)
+{
+    Invoice::getNumero(){
+        return numero;
+    }
+    
+    Invoice::getDescricao(){
+        return descricao;
+    }
+    
+    Invoice::getQuantidade(){
+        return quantidade;
+    }
+    
+    Invoice::getPreco(){
+        return preco;
+    }
+    
+    Invoice::setNumero(int n){
+        numero = n;
+    }
+    Invoice::setDescricao(std::string str){
+        descricao = str;
+    }
+    Invoice::setQuantidade(int q){
+        quantidade
+    }
+}

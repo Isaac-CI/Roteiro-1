@@ -1,0 +1,33 @@
+#include "Empregado.h"
+
+Empregado::Empregado(){}
+
+Empregado::Empregado(std::string n, std::string sn, double s){
+    Empregado::nome = n;
+    Empregado::sobrenome = sn;
+    Empregado::salario = s;
+}
+
+Empregado::getNome(){
+    return Empregado::nome;
+}
+
+Empregado::getSobrenome(){
+    return Empregado::sobrenome;
+}
+
+Empregado::getSalario(){
+    return Empregado::salario;
+}
+
+Empregado::setNome(std::string str){
+    Empregado::nome = str;
+}
+Empregado::setSobrenome(std::string dummy){
+    Empregado::sobrenome = dummy;
+}
+
+Empregado::setSalario(double dinheiro){
+    if(dinheiro > 0)
+        Empregado::salario = dinheiro;
+}

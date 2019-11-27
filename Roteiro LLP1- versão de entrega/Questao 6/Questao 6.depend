@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1574876384 source:c:\users\aluno\documents\questao 6\main.cpp
+	<string>
+	<iostream>
+	"ControleDePagamentos.h"
+
+1574875382 source:c:\users\aluno\documents\questao 6\src\controledepagamentos.cpp
+	<string>
+	"Pagamento.h"
+	"ControleDePagamentos.h"
+
+1574875496 c:\users\aluno\documents\questao 6\include\controledepagamentos.h
+	"Pagamento.h"
+
+1574874178 source:c:\users\aluno\documents\questao 6\src\pagamento.cpp
+	<string>
+	"Pagamento.h"
+
+1574874178 c:\users\aluno\documents\questao 6\include\pagamento.h
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1446667744 source:c:\users\aluno\desktop\questao5_2\main.cpp
+	<iostream>
+
+1574707989 source:c:\users\aluno\desktop\questao5_2\src\despesa.cpp
+	"Despesa.h"
+
+1574707989 c:\users\aluno\desktop\questao5_2\include\despesa.h
+
